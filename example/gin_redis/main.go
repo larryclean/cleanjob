@@ -1,30 +1,3 @@
-# cleanjob
-一个golang实现的分布式计划任务内库，依托于 "github.com/robfig/cron/v3"的单机实现扩展了一个分布式实现
-
-## 目录
-
-- [安装](#install)
-- [Example](#example)
-
-## Install
-
-Install the package with:
-
-```bash
-go get github.com/larry-dev/cleanjob
-```
-
-Import it with:
-
-```go
-import "github.com/larry-dev/cleanjob"
-```
-
-## Example
-
-Please check the example folder for details.
-
-```go
 package main
 
 import (
@@ -101,6 +74,3 @@ func main() {
 	mange.Run()
 	app.Run(addr)
 }
-
-```
-
